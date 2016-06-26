@@ -2,8 +2,20 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
-	<classpathentry kind="lib" path="/Volumes/MarcosOSX/Users/marcosvariz/Hadoop/hadoop-2.7.1/share/hadoop/common/hadoop-common-2.7.1.jar"/>
-	<classpathentry kind="lib" path="/Volumes/MarcosOSX/Users/marcosvariz/Hadoop/hadoop-2.7.1/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.7.1.jar"/>
-	<classpathentry kind="lib" path="/Volumes/MarcosOSX/Users/marcosvariz/Hadoop/hadoop-2.7.1/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-2.7.1.jar"/>
+	<classpathentry kind="lib" path="Hadoop/hadoop-common-2.7.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="https://hadoop.apache.org/docs/stable/api/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Hadoop/hadoop-mapreduce-client-core-2.7.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="https://hadoop.apache.org/docs/stable/api/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Hadoop/hadoop-mapreduce-client-jobclient-2.7.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="https://hadoop.apache.org/docs/stable/api/"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
